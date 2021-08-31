@@ -21,7 +21,7 @@ def Dual_Form(X,y):
     W=w.dot(y)
     return W
 
-def A2_A0200712B(N):
+def Linear(N):
     random_state = N
     X,y=load_iris().data, load_iris().target
     X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.8,random_state=N)
