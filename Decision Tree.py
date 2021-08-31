@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 
 
 # Please replace "StudentMatriculationNumber" with your actual matric number here and in the filename
-def A3_A0200712B(N, TestSize, MaxTreeDepth):
+def Decision_Tree(N, TestSize, MaxTreeDepth):
     random_state = N
     X,y=fetch_california_housing().data, fetch_california_housing().target
     X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=TestSize,random_state=N)
